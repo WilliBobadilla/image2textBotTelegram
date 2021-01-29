@@ -1,0 +1,13 @@
+Traducido de imagen a texto en fecha: 2021-01-28 14:45:17.246840
+This is an example of text that is not
+{ully justifed, just aligned. Notice how
+the right margin varies slightly,
+although the block fills up as well as it
+‘can using the default spacing,
+
+This is fully justified text. Notice how
+the extra space at the ends of the
+lines is redistributed between the
+letters so that both margins are
+absolutely equal.
+
