@@ -19,4 +19,4 @@ pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tessera
 def convertidor(path_name):
     text = pytesseract.image_to_string(Image.open(path_name))
     print(text)
-    return text
+    return text 
