@@ -1,7 +1,7 @@
 import telebot as tb
 import requests
 import shutil
-import main 
+import main
 
 API_TOKEN = "1507843069:AAEOcU9ulclTOjSZmzhGEk4znlTguiqT9Ns"
 bot = tb.TeleBot(API_TOKEN)
@@ -27,6 +27,9 @@ def handle_all_media(message):
         with open("images/imagen.jpg", "wb") as f:
             f.write(file.content)
 
-    bot.reply_to(message, "Texto: \n" + main.convertidor('images/imagen.jpg'))
+    if main.lengh('images/imagen.jpg') > 3:    
+        bot.reply_to(message, "Texto: \n" + main.convertidor('images/imagen.jpg'))
+    else:
+        bot.reply_to(message, "No se reconoce la imagen :( \nprueba con otra.")
 
 bot.polling()
