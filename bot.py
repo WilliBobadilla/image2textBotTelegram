@@ -2,8 +2,8 @@ import telebot as tb
 import requests
 import shutil
 import main
+from token import API_TOKEN
 
-API_TOKEN = "1507843069:AAEOcU9ulclTOjSZmzhGEk4znlTguiqT9Ns"
 bot = tb.TeleBot(API_TOKEN)
 
 @bot.message_handler(commands=['start'])
