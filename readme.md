@@ -80,3 +80,8 @@ pip install -r requirements.txt
 ```bash
 python bot.py
 ```
+
+## Instrucciones de uso :screw:
+1. Abrir telegram, y buscar el nombre de tu Bot en el buscador, el BotFather te da el link para ingresar al bot.
+2. Al ingresar enviar el comando /start
+3. Enviar una imagen con texto y esperar la respuesta
